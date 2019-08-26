@@ -1,17 +1,8 @@
-# Tree View Autoresize
+## Atom tree-view-autoadjust package
 
-[![apm install tree-view-autoresize](https://apm-badges.herokuapp.com/apm/tree-view-autoresize.svg)](https://atom.io/packages/tree-view-autoresize)
-
-Autoresize the tree view when open/close folders.
-
-![Tree View Autoresize](https://cloud.githubusercontent.com/assets/10590799/14082869/a6132a20-f4cf-11e5-8640-e067730f7098.gif)
-
-~~It also supports [Nuclide](http://nuclide.io) file tree~~
-
-## Install
-From Atom go to Settings ➔ Install or with the command `Settings View:Install Packages and Themes` and then search for `tree-view-autoresize`
-
-Or with apm:
-```bash
-apm install tree-view-autoresize
-```
+This package is a fork of @lexcast's [tree-view-autoresize](https://github.com/lexcast/tree-view-autoresize), and contains several updates/improvements:
+- only resize the dock where tree-view actually exists: do not affect the dock on the opposite side
+- drop the dependency of [atom-utils](https://www.npmjs.com/package/atom-utils)
+- move config to package.json
+- better dispositions
+- will be maintained as far as I use Atom

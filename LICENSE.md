@@ -1,3 +1,5 @@
+Copyright (c) 2019 KADOWAKI, Shuhei (Added when I forked the code base from below and changed it significantly)
+
 Copyright (c) 2017 Daniel Alejandro Cast
 
 Permission is hereby granted, free of charge, to any person obtaining

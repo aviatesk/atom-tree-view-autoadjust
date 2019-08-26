@@ -1,3 +1,15 @@
+## v0.0.1
+
+improvements:
+- JSfy the code
+- drop the dependency of [atom-utils](https://www.npmjs.com/package/atom-utils)
+- move config to package.json
+- better dispositions
+
+***
+
+From the change log of the original [tree-view-autoresize](https://github.com/lexcast/tree-view-autoresize)
+
 # Change Log
 
 ## [v2.3.0](https://github.com/lexcast/tree-view-autoresize/tree/v2.3.0) (2017-11-29) Overflow scroll when max-width is set

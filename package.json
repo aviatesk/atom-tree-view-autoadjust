@@ -1,13 +1,16 @@
 {
-  "name": "tree-view-autoresize",
-  "main": "./lib/tree-view-autoresize",
-  "version": "2.3.0",
-  "description": "Autoresize the tree view when open/close folders",
+  "name": "tree-view-autoadjust",
+  "main": "./lib/tree-view-autoadjust",
+  "version": "0.0.1",
+  "description": "Automatically adjusts the tree view's width",
   "keywords": [
     "tree-view",
-    "autoresize"
+    "autoresize",
+    "auto",
+    "adjust",
+    "width"
   ],
-  "repository": "https://github.com/lexcast/tree-view-autoresize",
+  "repository": "https://github.com/aviatesk/atom-tree-view-autoadjust",
   "license": "MIT",
   "engines": {
     "atom": ">=1.17.0 <2.0.0"
