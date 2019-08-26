@@ -12,8 +12,34 @@
   "engines": {
     "atom": ">=1.17.0 <2.0.0"
   },
+  "configSchema": {
+    "minimumWidth": {
+      "type": "integer",
+      "default": 0,
+      "description": "Minimum tree-view width. Put `0` if you do not want min limit."
+    },
+    "maximumWidth": {
+      "type": "integer",
+      "default": 0,
+      "description": "Maximum tree-view width. Put `0` if you do not want max limit."
+    },
+    "padding": {
+      "type": "integer",
+      "default": 0,
+      "description": "Add padding to the right side of the tree-view."
+    },
+    "animationMilliseconds": {
+      "type": "integer",
+      "default": 150,
+      "description": "Number of milliseconds to elapse during animations. Smaller means faster."
+    },
+    "delayMilliseconds": {
+      "type": "integer",
+      "default": 100,
+      "description": "Number of milliseconds to wait before animations. Smaller means faster."
+    }
+  },
   "dependencies": {
-    "atom-utils": "^0.9.2",
     "scrollbar-width": "^3.1.1"
   }
 }
