@@ -1,7 +1,7 @@
 {
   "name": "tree-view-autoadjust",
   "main": "./lib/tree-view-autoadjust",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Automatically adjusts the tree view's width",
   "keywords": [
     "tree-view",
